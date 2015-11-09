@@ -42,4 +42,4 @@ while test $# -gt 0; do
   done
 
 
-ssh -i $(echo $SSH_CONN_KEY) $(echo $SSH_CONN_USER)@$(echo $CBREN_AWS_URI);
+ssh -i $(echo $SSH_CONN_KEY) $(echo $SSH_CONN_USER)@$(echo $SSH_CONN_URI);
